@@ -52,7 +52,7 @@ class Todo extends React.Component {
   render() {
     return (
       <div className='container'>
-        <h1>Todo List</h1>
+        <h1>Todo List: {this.state.todoList.length}</h1>
         <div className='header'>
           <form onSubmit={this.addTodo}>
             <input 

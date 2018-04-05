@@ -9,9 +9,21 @@ h1 {
   text-align: center;
 }
 
-#main {
+/*#main {
   display: flex;
   justify-content: flex;
+}
+*/
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 0px;
 }
 
 .container .header input,
@@ -22,7 +34,7 @@ h1 {
 }
 
 .container .header input {
-  width: 165px;  
+  width: 210px;  
   border: 2px solid #FFF;
 }
 
