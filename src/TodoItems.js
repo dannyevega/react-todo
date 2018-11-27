@@ -14,7 +14,6 @@ class TodoItems extends React.Component {
   removeItem(key) {
     this.props.remove(key);
   }
-
   render() {
     let entries = this.props.items;
     let listItems = entries.map(this.createItem)
